@@ -26,7 +26,7 @@
 
 <script>
 document.getElementById("invite").addEventListener("click", function() {
-  window.location.href = "https://discord.gg/kfd";
+  window.location.href = "/invite/";
 });
 document.getElementById("info").addEventListener("click", function() {
   window.location.href = "/info/";
@@ -54,15 +54,11 @@ document.getElementById("info").addEventListener("click", function() {
     flex-direction: column;
     background: linear-gradient(0deg, #d35cff 0%, #ff9eea 58%);
   }
-
   .image img {
     max-width: 100%;
     height: auto;
     align-items: center;
   }
-
-
-
   main {
     flex: 1;
     max-width: 1200px;
@@ -72,7 +68,6 @@ document.getElementById("info").addEventListener("click", function() {
     flex-direction: column;
     justify-content: center; /* Center vertically */
   }
-
   button {
     padding: 10px;
     border-radius: 5px;
@@ -80,7 +75,6 @@ document.getElementById("info").addEventListener("click", function() {
     color: #000;
     background-color: #c9daff;
   }
-
   .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -89,25 +83,12 @@ document.getElementById("info").addEventListener("click", function() {
     margin-top: 5px;
     margin-right: 5px;
   }
-
   h1 {
     color: #121212;
     text-align: center;
     margin-top: 30px;
     font-size: 7vw;
   }
-
-  @media (max-width: 600px) {
-    h1 {
-      font-size: 50px;
-    }
-
-    .buttons button {
-      flex-basis: 100%;
-      margin-bottom: 10px;
-    }
-  }
-
   .paragraph {
     background-color: #2b2b2b;
     color: #fff;
@@ -117,22 +98,10 @@ document.getElementById("info").addEventListener("click", function() {
     text-align: center;
     font-size: calc(16px + 0.2vw);
   }
-
-  footer {
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #2b2b2b;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
-
   a {
     text-decoration: none;
     color: #ff73f2;
   }
-
   .container {
     text-align: center;
     height: 30%;
@@ -141,7 +110,6 @@ document.getElementById("info").addEventListener("click", function() {
     justify-content: center;
     width: auto;
   }
-
   button {
     padding: 25px 50px;
     font-size: 40px;
@@ -152,13 +120,8 @@ document.getElementById("info").addEventListener("click", function() {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-
   button:hover {
     background-color: #bf7aff;
     box-shadow: 0 0 30px #bf7aff;
   }
-
-
-
-  
 </style>
